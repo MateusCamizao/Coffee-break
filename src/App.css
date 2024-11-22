@@ -53,7 +53,7 @@ h4 {
     background: var(--second-bg-color);
 }
 
-.main-content {
+.page-content {
     max-width: 120rem;
     margin: 0 auto;
     padding: var(--gap);

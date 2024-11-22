@@ -1,4 +1,36 @@
 .text-content {
-    font-family: "Dancing Script", cursive;
-    font-weight: 900;
+    font-family: "Gains Mono" sans-serif;
+    font-weight: 800;
+    color: var(--third-color);
+    text-shadow: 0.3rem 0.3rem var(--second-color);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 45vh;
+}
+
+.main-content div {
+    display: flex;
+    max-width: 65vh;
+}
+
+.main div h2 {
+    font-family: "Gain Mono" sans-serif;
+    font-weight: 700;
+    color: var(--third-color);
+    text-shadow: 0.2rem 0.2rem var(--second-color);
+}
+
+.main div p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: var(--third-color);
+    text-shadow: var(--for-color);
 }

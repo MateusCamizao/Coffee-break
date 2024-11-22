@@ -4,7 +4,7 @@ function Header() {
     return(
         <header>
             <aside class="menu">
-                <div class="main-content menu-content">
+                <div class="page-content menu-content">
                         <h1 class="logo">
                             <a href="#">
                                 Coffe Break
@@ -13,8 +13,8 @@ function Header() {
                     <nav>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Content</a></li>
                             <li><a href="#">About</a></li>
+                            <li><a href="#">Content</a></li>
                         </ul>
                     </nav>
                 </div>
