@@ -6,6 +6,7 @@
     --primary-bg-color: #e0ad83;
     --second-bg-color: #ffeec2;
     --bg-image: url('/public/bg-coffee.png');
+    --bg-second-image: url('/public/bg-coffee1.jpg');
     --gap: 3rem;
 }
 
@@ -50,7 +51,11 @@ h4 {
 }
 
 .second-bg {
-    background: var(--second-bg-color);
+    background: white;
+}
+
+.third-bg {
+    background-image: var(--bg-second-image);
 }
 
 .page-content {
@@ -61,4 +66,17 @@ h4 {
 
 .section {
     min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+::-webkit-scrollbar-track{
+    background: var(--third-color);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary-bg-color);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
 }
