@@ -1,19 +1,64 @@
 :root {
-    --primary-color: white;
-    --second-color: black;
-    --third-color: blue; 
-    --primary-bg-color: lightgray;
-    --second-bg-color: gray;
+    --primary-color: #c57d56;
+    --second-color: #3d1810;
+    --third-color: #f0cda2;
+    --for-color: #3b0907; 
+    --primary-bg-color: #e0ad83;
+    --second-bg-color: #ffeec2;
+    --bg-image: url('/public/bg-coffee.png');
+    --gap: 3rem;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
     background-color: var(--bg-color);
 }
 
 html {
     font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 5.5rem;
+}
+h3 {
+    font-size: 5rem;
+}
+h4 {
+    font-size: 4.5rem;
+}
+
+.primary-bg {
+    background-image: var(--bg-image);
+    height: 80vh;
+    background-size:cover;
+    background-position: center center;
+}
+
+.second-bg {
+    background: var(--second-bg-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh;
 }

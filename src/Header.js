@@ -3,21 +3,23 @@ import "./Header.css"
 function Header() {
     return(
         <header>
-            <section class="grid-container">
-                <h1>
-                    <a href="#">
-                        <img class="logo-img" src="./logo-coffee.png"></img>
-                    </a>
-                </h1>
-
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Content</a></li>
-                    </ul>
-                </nav>
-            </section>
+            <aside class="menu">
+                <div class="main-content menu-content">
+                        <h1 class="logo">
+                            <a href="#">
+                                Coffe Break
+                            </a>
+                        </h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Content</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+            <div class="menu-spacing"></div>
         </header>
     );
 }
