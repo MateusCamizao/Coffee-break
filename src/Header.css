@@ -1,9 +1,7 @@
 .menu {
     background-color: var(--second-bg-color);
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    padding: 0 10rem;
     width: 100%;
     border-bottom: 0.02rem solid var(--third-color);
 }
@@ -52,11 +50,4 @@
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
-}
-
-.menu-spacing {
-   height: 6.5rem;
-   background: var(--second-bg-color);
-   border-top: 0.04rem solid var(--third-color);;
-   border-bottom: 0.04rem solid var(--third-color);
 }

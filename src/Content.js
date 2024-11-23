@@ -4,11 +4,11 @@ import MenuCoffee from "./MenuCoffee";
 function Content() {
     return(
         <div>
-            <section class="primary-bg section">
+            <section id="home" class="primary-bg section">
                 <div class="main page-content">
                     <div class="main-primary-content">
                         <h1 class="text-content">Coffee Break</h1>
-                        <h2> Sua Pausa, Nossa Experiência </h2>
+                        <h2 class="text-content"> Sua Pausa, Nossa Experiência </h2>
                            <div>
                                 <p>
                                 No Coffee Break, acreditamos que cada pausa para o café é uma oportunidade para criar momentos inesquecíveis. 
@@ -26,11 +26,11 @@ function Content() {
                 
             </section>
 
-            <section class="second-bg section">
+            <section id="about" class="second-bg section">
                 <div class="main">
                     <div class="main-second-content">
                         <h1 class="text-content">OS GRÃOS</h1>
-                        <h2>CAFÉS ESPECIAIS COM NOTA SUPERIOR A 80</h2>
+                        <h2 class="text-content">CAFÉS ESPECIAIS COM NOTA SUPERIOR A 80</h2>
 
                         <div>
                             <h3>
@@ -47,7 +47,7 @@ function Content() {
                 </div>
             </section>
 
-            <section class="third-bg section">
+            <section id="content" class="third-bg section">
                 <MenuCoffee/>
             </section>
         </div>
