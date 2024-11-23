@@ -1,0 +1,46 @@
+.menu-coffee {
+    display: flex;
+    padding-top: 10rem;
+    padding-left: 10rem;
+    align-items: flex-start;
+}
+
+.menu-coffee div {
+    display: flex;
+    max-width: 70vh;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-right: 10rem;
+}
+
+.menu-coffee h1 , .menu-coffee h2{
+    font-family: "Gain Mono" sans-serif;
+    font-weight: 700;
+    color: var(--second-color);
+    text-shadow: 0.3rem 0.3rem var(--primary-color);
+}
+
+.menu-coffee h2 {
+    text-transform: uppercase;
+    padding-left: 4.5rem;
+}
+
+.menu-coffee h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0.2rem 0.2rem var(--for-color);
+    padding-left: 6rem;
+    padding-top: 2rem;
+}
+
+.menu-coffee .menu-coffee-content {
+    padding-top: 8rem;
+}
+
+.menu-coffee-grid {
+    display: gird;
+    grid-template-columns: repeat(4, 1fr);
+}
